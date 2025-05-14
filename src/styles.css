@@ -1,0 +1,12 @@
+/* filepath: c:\Users\Nicolas Vanegas\Downloads\project (3)\src\index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply transition-colors duration-300;
+}
